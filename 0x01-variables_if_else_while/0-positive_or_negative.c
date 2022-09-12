@@ -1,7 +1,7 @@
 
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - main fuction generate a random number
  * Return: return 0(successful)
