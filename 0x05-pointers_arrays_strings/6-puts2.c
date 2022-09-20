@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * puts_half - prints the second half of the string
- * @str: the string reference
- * Return: 0
+ * puts2 - print alternating chars of string
+ * @str: string
+ * Return: void
  */
- 
-void puts_half(char *str)
+
+void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
-		;
-	i++;
-	for (i /= 2; str[i] != '\0'; i++)
+	i = 0;
+	while (str[i] != '\0')
 	{
-		_putchar(str[i]);
+		if (i % 2 == 0)
+			_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
