@@ -24,8 +24,8 @@ for (i = 0; i < ac; i++)
 {
 for (j = 0; av[i][j]; j++)
 ret[k++] = av[i][j];
-ret[k++] = n;
+ret[k++] = '\n';
 }
-ret[k] = 0;
+ret[k] = '\0';
 return (ret);
 }
