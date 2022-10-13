@@ -10,8 +10,8 @@
 */
 typedef struct fmt
 {
-variadic_functions.h char *f;
-variadic_functions.h void (*p)(va_list s);
+	char *f;
+	void (*p)(va_list s);
 } my_fmt;
 
 
